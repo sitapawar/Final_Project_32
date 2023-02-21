@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "firebase": "^9.15.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "testing-library": "^0.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26"
+  }
+}

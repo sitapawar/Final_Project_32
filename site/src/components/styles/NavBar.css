@@ -1,0 +1,40 @@
+.Header{
+    display: flex;
+    background-color: rgb(73, 125, 138);
+    color: white;
+    height: 50px;
+}
+
+.App-header {
+    text-align: center;
+    background-color: #064c58;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}
+      
+.Title{
+    font-size: 40px;
+    color: white;
+    margin-bottom: .5%;
+}
+
+.subtitle{
+    font-size: calc(1px + 2vmin);
+    color: rgb(212, 226, 230);
+}
+
+.link{
+    color: rgb(213, 232, 238);
+    text-decoration: none;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.PageLink {
+    color: white;
+    margin: auto;
+}

@@ -1,0 +1,37 @@
+.background{
+    width: 100vw;
+    height:100vw
+}
+
+.background-box{
+    width: 95%;
+    margin: auto;
+    background-color: #b0c8d0;
+    border-radius: 10px;
+
+}
+
+.menuBox{
+    margin: auto;
+}
+
+.foodBox{
+    background-color: #e4f7fd;
+    width: 40vw;
+    border-radius: 6px;
+    border-color: black;
+    margin-bottom: 8px;
+    margin: auto
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+.foodText{
+    text-transform: uppercase;
+}
+
+.inputRatingText{
+    color:rgb(5, 38, 48);
+}

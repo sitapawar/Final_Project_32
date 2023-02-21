@@ -1,0 +1,82 @@
+/*
+  This is a reasonable starting point for the CSS in Sprint 1.
+  Positioning in CSS can sometimes be annoying to manage, so we've opted to 
+  give you this starter CSS. Feel free to modify it as you wish, though.
+*/
+BODY {
+    /* Less blue than the others since links are blue */
+    background-color: lightcyan;
+    
+    /* larger font for readability */
+    font-size: 16px;
+    font-weight: normal; 
+    font-family: Georgia;
+} 
+
+.siteTitle {
+    text-align: center;
+    margin:auto;
+    justify-content: center;
+    
+    color:black;
+}
+
+.repl {
+    position:relative;
+    min-height:80vh;    
+}
+
+.repl-history {      
+    height:70vh;   
+    margin: auto;
+    display: block;
+    overflow: scroll; 
+    text-align: center;
+    justify-content: center; 
+    border-color: black;
+}
+
+#historyText{
+    background-color: azure;
+    text-align: center;
+    justify-content: center;  
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: solid;
+    border-width: .3vh;
+}
+
+.repl-input {        
+    margin: auto;    
+    height: 10vh;
+    color: black;
+
+}
+.repl-command-box {
+    width: 90%;            
+    margin: auto;
+    display: block;
+    background-color: azure;
+    font-weight: normal; 
+    font-family: Georgia;
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+::placeholder{
+    text-align: center;
+
+}
+
+#btn{
+    font-family: Georgia;    
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+}
+
